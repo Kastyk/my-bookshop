@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "wypastowanybookshop": {
+      "hosting": {
+        "my-bookshop": [
+          "wypastowanybookshop"
+        ]
+      }
+    }
+  }
+}

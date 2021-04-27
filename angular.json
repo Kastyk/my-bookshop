@@ -31,7 +31,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              {
+                "input": "src/scss/theme.scss"
+              },
+              "src/scss/styles.scss"
             ],
             "scripts": []
           },
@@ -123,9 +126,16 @@
               "devServerTarget": "my-bookshop:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "my-bookshop"
+  "defaultProject": "my-bookshop",
+  "cli": {
+    "analytics": false
+  }
 }
